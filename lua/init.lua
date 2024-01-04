@@ -1,9 +1,8 @@
 -- Archivo: lua/init.lua
 
-local pomodoro = require("pomodoro")
+local pomodoro = require('pomodoro')
+
 pomodoro.setup()
+pomodoro.start()
 
--- Definir el comando personalizado para iniciar el Pomodoro
-vim.cmd([[command! PomodoroStart lua require('pomodoro').start()]])
-
--- Resto de tu configuración
+-- Resto de tu configuraciónLw
